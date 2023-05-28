@@ -9,7 +9,7 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "101",
+    name: "101上山走走",
     url: "https://mrhope.site",
   },
 
@@ -71,7 +71,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "101的上山小記",
         intro: "/intro.html",
       },
 

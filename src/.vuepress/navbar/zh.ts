@@ -2,15 +2,14 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",
-  { text: "演示", icon: "discover", link: "/demo/" },
+  { text: "小百岳", link: "/demo/" },
+  { text: "高山百岳", link: "/demo/" },
   {
-    text: "博文",
-    icon: "edit",
+    text: "北部",
     prefix: "/posts/",
     children: [
       {
-        text: "苹果",
-        icon: "edit",
+        text: "北北基宜",
         prefix: "apple/",
         children: [
           { text: "苹果1", icon: "edit", link: "1" },
@@ -20,8 +19,7 @@ export const zhNavbar = navbar([
         ],
       },
       {
-        text: "香蕉",
-        icon: "edit",
+        text: "桃竹苗",
         prefix: "banana/",
         children: [
           {
@@ -38,15 +36,75 @@ export const zhNavbar = navbar([
           "4",
         ],
       },
-      { text: "樱桃", icon: "edit", link: "cherry" },
-      { text: "火龙果", icon: "edit", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
   },
   {
-    text: "V2 文档",
-    icon: "note",
-    link: "https://theme-hope.vuejs.press/",
+    text: "中南部",
+    prefix: "/posts/",
+    children: [
+      {
+        text: "中彰投",
+        prefix: "apple/",
+        children: [
+          { text: "苹果1", icon: "edit", link: "1" },
+          { text: "苹果2", icon: "edit", link: "2" },
+          "3",
+          "4",
+        ],
+      },
+      {
+        text: "高屏",
+        prefix: "banana/",
+        children: [
+          {
+            text: "香蕉 1",
+            icon: "edit",
+            link: "1",
+          },
+          {
+            text: "香蕉 2",
+            icon: "edit",
+            link: "2",
+          },
+          "3",
+          "4",
+        ],
+      },
+    ],
   },
+  {
+    text: "花東離島",
+    prefix: "/posts/",
+    children: [
+      {
+        text: "花東",
+        prefix: "apple/",
+        children: [
+          { text: "苹果1", icon: "edit", link: "1" },
+          { text: "苹果2", icon: "edit", link: "2" },
+          "3",
+          "4",
+        ],
+      },
+      {
+        text: "金馬澎",
+        prefix: "banana/",
+        children: [
+          {
+            text: "香蕉 1",
+            icon: "edit",
+            link: "1",
+          },
+          {
+            text: "香蕉 2",
+            icon: "edit",
+            link: "2",
+          },
+          "3",
+          "4",
+        ],
+      },
+    ],
+  },
+  { text: "時間軸", link: "/timeline/" },
 ]);
