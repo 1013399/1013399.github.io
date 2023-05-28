@@ -1,0 +1,24 @@
+{
+  "name": "1013399",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.62",
+    "@vuepress/plugin-external-link-icon": "^2.0.0-beta.62",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.62",
+    "@vuepress/plugin-nprogress": "^2.0.0-beta.62",
+    "@vuepress/plugin-search": "^2.0.0-beta.62",
+    "package-name": "^0.1.0",
+    "vuepress": "^2.0.0-beta.62"
+  },
+  "dependencies": {
+    "vuepress-theme-hope": "^2.0.0-beta.216"
+  }
+}
