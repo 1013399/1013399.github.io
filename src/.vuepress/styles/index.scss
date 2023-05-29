@@ -1,1 +1,43 @@
 // place your custom styles here
+@media (min-width: 1440px){
+    .theme-container.no-sidebar .sidebar + .vp-page {
+        -webkit-padding-end: 0;
+        padding-inline-end: 0;
+    }
+}
+
+.vp-blog-mask{
+    background: url("/assets/images/cover.jpg") center center / cover no-repeat !important;
+    &::after{
+        background: #000;
+        opacity: .3;
+    }
+}
+
+.vp-article-item{
+    .vp-article-cover{
+        width: 33%;
+        float: left;
+        margin: 0;
+        margin-right: 1.25rem;
+        border-radius: 0.4rem;
+    }
+    
+    .vp-article-hr{
+        clear: both;
+        margin-top: 0.8rem;
+    }
+}
+
+.vp-blog-main .vp-category:not(.active){
+    display: none;
+}
+
+.vp-category{
+    margin: .3rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 12px;
+    .count{
+        transform: scale(.8);
+    }
+}
