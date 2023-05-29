@@ -1,4 +1,5 @@
 ---
+lang: zh-Hant-tw
 home: true
 layout: BlogHome
 icon: home

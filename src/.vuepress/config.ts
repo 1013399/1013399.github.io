@@ -3,13 +3,12 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
-  lang: "zh-Hant-tw",
 
   locales: {
     "/": {
       lang: "zh-TW",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "101上山走走",
+      description: "101的上山小記",
     },
   },
 

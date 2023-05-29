@@ -10,30 +10,21 @@ export const zhNavbar = navbar([
     children: [
       {
         text: "北北基宜",
-        prefix: "apple/",
+        // prefix: "apple/",
         children: [
-          { text: "苹果1", icon: "edit", link: "1" },
-          { text: "苹果2", icon: "edit", link: "2" },
-          "3",
-          "4",
+          { text: "基隆上山走走", link: "#" },
+          { text: "台北上山走走", link: "#" },
+          { text: "新北上山走走", link: "#" },
+          { text: "宜蘭上山走走", link: "#" },
         ],
       },
       {
         text: "桃竹苗",
-        prefix: "banana/",
+        // prefix: "banana/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "edit",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "edit",
-            link: "2",
-          },
-          "3",
-          "4",
+          { text: "桃園上山走走", link: "#" },
+          { text: "新竹上山走走", link: "#" },
+          { text: "苗栗上山走走", link: "#" },
         ],
       },
     ],
@@ -44,67 +35,54 @@ export const zhNavbar = navbar([
     children: [
       {
         text: "中彰投",
-        prefix: "apple/",
+        // prefix: "apple/",
         children: [
-          { text: "苹果1", icon: "edit", link: "1" },
-          { text: "苹果2", icon: "edit", link: "2" },
-          "3",
-          "4",
+          { text: "台中上山走走", link: "#" },
+          { text: "彰化上山走走", link: "#" },
+          { text: "南投上山走走", link: "#" },
+        ],
+      },
+      {
+        text: "雲嘉南",
+        // prefix: "apple/",
+        children: [
+          { text: "雲林上山走走", link: "#" },
+          { text: "嘉義上山走走", link: "#" },
+          { text: "台南上山走走", link: "#" },
         ],
       },
       {
         text: "高屏",
-        prefix: "banana/",
+        // prefix: "banana/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "edit",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "edit",
-            link: "2",
-          },
-          "3",
-          "4",
+          { text: "高雄上山走走", link: "#" },
+          { text: "屏東上山走走", link: "#" },
         ],
       },
     ],
   },
   {
     text: "花東離島",
-    prefix: "/posts/",
+    // prefix: "/posts/",
     children: [
       {
         text: "花東",
-        prefix: "apple/",
+        // prefix: "apple/",
         children: [
-          { text: "苹果1", icon: "edit", link: "1" },
-          { text: "苹果2", icon: "edit", link: "2" },
-          "3",
-          "4",
+          { text: "花蓮上山走走", link: "#" },
+          { text: "台東上山走走", link: "#" },
         ],
       },
       {
         text: "金馬澎",
-        prefix: "banana/",
+        // prefix: "banana/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "edit",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "edit",
-            link: "2",
-          },
-          "3",
-          "4",
+          { text: "金門上山走走", link: "#" },
+          { text: "馬祖上山走走", link: "#" },
+          { text: "澎湖上山走走", link: "#" },
         ],
       },
     ],
   },
-  { text: "時間軸", link: "/timeline/" },
+  { text: "上山記事", link: "/timeline/" },
 ]);
