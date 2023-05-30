@@ -14,12 +14,15 @@
     }
 }
 
+$article-cover-width: 33%;
+$article-cover-margin: 1.25rem;
+
 .vp-article-item{
     .vp-article-cover{
-        width: 33%;
+        width: $article-cover-width;
         float: left;
         margin: 0;
-        margin-right: 1.25rem;
+        margin-right: $article-cover-margin;
         border-radius: 0.4rem;
     }
     
@@ -29,8 +32,13 @@
     }
 }
 
+.vp-article-cover ~ a .vp-article-title{
+    display: block;
+    margin-left: calc(#{$article-cover-width} + #{$article-cover-margin});
+}
+
 .vp-blog-main .vp-category:not(.active){
-    display: none;
+    // display: none;
 }
 
 .vp-category{
@@ -52,4 +60,18 @@
 
 .vp-nav-logo{
     display: none;
+}
+
+.theme-hope-content{
+    figure{
+        display: block;
+        margin: 1rem 0;
+        text-align: left;
+        img{
+            margin: 0;
+        }
+        figcaption{
+            display: block;
+        }
+    }
 }
