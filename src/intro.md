@@ -3,7 +3,7 @@ lang: zh-Hant-tw
 icon: info
 title: 關於
 sidebar: false
-cover: https://i.imgur.com/woGkAjs.jpg
+cover: /assets/images/cover-intro.jpg
 ---
 
 一般人對於沒有爬過而又有興趣的山，總是會上網找資料，網路上也有許多專業的網站及部落格，甚至記錄鉅細靡遺。

@@ -3,6 +3,7 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/": [
     "",
+    // TODO: remove
     {
       text: "如何使用",
       icon: "creative",
