@@ -1,11 +1,14 @@
 ---
 lang: zh-Hant-tw
-icon: info
+icon: mountain-sun
 title: 101上山走走記錄
 sidebar: false
-sticky: true
-# cover: /assets/images/cover-intro.jpg
+# sticky: true
+cover: /assets/images/cover-intro.jpg
+timeline: false
+article: false
 ---
+
 
 一般人對於沒有爬過而又有興趣的山，總是會上網找資料，網路上也有許多專業的網站及部落格，甚至記錄鉅細靡遺。
 
@@ -15,9 +18,7 @@ sticky: true
 
 由於記錄越來越多，此頁面開啟時間過久，特將上山走走記錄分區，以節省寶貴時間。
 
-[查看更多](intro.md)
 
-<!-- more -->
 
 ----
 

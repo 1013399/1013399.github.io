@@ -13,7 +13,7 @@ export default hopeTheme({
     url: "/intro.html",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "fontawesome",
 
   logo: "/assets/images/avatar.jpg",
 

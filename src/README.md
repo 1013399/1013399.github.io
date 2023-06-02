@@ -8,11 +8,27 @@ title: 首頁
 heroText: 101上山走走
 heroFullScreen: false
 tagline: 101的上山小記 (搬家中)
-# projects:
-#   - icon: project
-#     name: 项目名称
-#     desc: 项目详细描述
-#     link: https://你的项目链接
+projects:
+  - icon: location-dot
+    name: 各地上山走走記事
+    desc: 项目详细描述
+    link: #
+
+  - icon: calendar
+    name: 上山走走編年紀事
+    desc: 项目详细描述
+    link: #
+
+  - icon: mountain-sun
+    name: 小百岳
+    desc: 项目详细描述
+    link: #
+
+  - icon: mountain
+    name: 高山百岳
+    desc: 项目详细描述
+    link: #
+
 
 #   - icon: link
 #     name: 链接名称
