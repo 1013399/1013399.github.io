@@ -1,9 +1,10 @@
 ---
 lang: zh-Hant-tw
 icon: info
-title: 關於
+title: 101上山走走記錄
 sidebar: false
-cover: /assets/images/cover-intro.jpg
+sticky: true
+# cover: /assets/images/cover-intro.jpg
 ---
 
 一般人對於沒有爬過而又有興趣的山，總是會上網找資料，網路上也有許多專業的網站及部落格，甚至記錄鉅細靡遺。
@@ -14,12 +15,16 @@ cover: /assets/images/cover-intro.jpg
 
 由於記錄越來越多，此頁面開啟時間過久，特將上山走走記錄分區，以節省寶貴時間。
 
+[查看更多](intro.md)
+
+<!-- more -->
+
 ----
 
 ## 各地上山走走記事
-(已整理為 notion 表格，連結尚未更新)
+(連結尚未更新)
 
-- [【北北基宜】上山走走記錄](https://1013399.notion.site/1013399/dd97ce4bd51144fca6323db911df3524?v=8d74e55618e145cb95af004b3903ec96)
+- [【北北基宜】上山走走記錄](#)
 - [【桃竹苗】上山走走記錄](#)
 - [【中彰投】上山走走記錄](#)
 - [【雲嘉南】上山走走記錄](#)
@@ -32,6 +37,7 @@ cover: /assets/images/cover-intro.jpg
 
 ## 101其他上山走走記事
 101上山走走統計
+(連結尚未更新)
 
 - 2009年上山走走日誌
 - 2010年上山走走日誌
@@ -48,9 +54,10 @@ cover: /assets/images/cover-intro.jpg
 ----
 
 ## 小百岳：
-(已整理為 notion 表格，連結尚未更新)
+(連結尚未更新)
 
 ----
 
 ## 高山百岳：
+(連結尚未更新)
 

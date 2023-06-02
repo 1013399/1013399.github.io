@@ -1,4 +1,10 @@
 // place your custom styles here
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+:root{
+    --font-family: 'Noto Sans TC', sans-serif;
+    --font-family-heading: var(--font-family);
+}
+
 @media (min-width: 1440px){
     .theme-container.no-sidebar .sidebar + .vp-page {
         -webkit-padding-end: 0;
@@ -73,5 +79,13 @@ $article-cover-margin: 1.25rem;
         figcaption{
             display: block;
         }
+    }
+}
+
+.vp-article-title{
+    color: rgba( #ffffff, .8);
+    transition: .3s;
+    &:hover{
+        color: #ffffff;
     }
 }

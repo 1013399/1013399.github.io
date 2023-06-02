@@ -4,10 +4,10 @@ home: true
 layout: BlogHome
 icon: home
 title: 首頁
-heroImage: /logo.svg
+# heroImage: /logo.svg
 heroText: 101上山走走
 heroFullScreen: false
-tagline: 101的上山小記
+tagline: 101的上山小記 (搬家中)
 # projects:
 #   - icon: project
 #     name: 项目名称
@@ -42,8 +42,8 @@ tagline: 101的上山小記
 footer: 
 ---
 
-这是一个首頁的案例。
+<!-- 这是一个首頁的案例。
 
 要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
 
-相关配置文档请见 [首頁](https://theme-hope.vuejs.press/zh/guide/blog/home/)。
+相关配置文档请见 [首頁](https://theme-hope.vuejs.press/zh/guide/blog/home/)。 -->
