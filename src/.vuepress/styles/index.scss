@@ -23,25 +23,28 @@
 $article-cover-width: 33%;
 $article-cover-margin: 1.25rem;
 
-.vp-article-item{
-    .vp-article-cover{
-        width: $article-cover-width;
-        float: left;
-        margin: 0;
-        margin-right: $article-cover-margin;
-        border-radius: 0.4rem;
+
+@media (min-width: 1440px){
+    .vp-article-item{
+        .vp-article-cover{
+            width: $article-cover-width;
+            float: left;
+            margin: 0;
+            margin-right: $article-cover-margin;
+            border-radius: 0.4rem;
+        }
+        
+        .vp-article-hr{
+            clear: both;
+            margin-top: 0.8rem;
+        }
     }
-    
-    .vp-article-hr{
-        clear: both;
-        margin-top: 0.8rem;
+    .vp-article-cover ~ a .vp-article-title{
+        display: block;
+        margin-left: calc(#{$article-cover-width} + #{$article-cover-margin});
     }
 }
 
-.vp-article-cover ~ a .vp-article-title{
-    display: block;
-    margin-left: calc(#{$article-cover-width} + #{$article-cover-margin});
-}
 
 .vp-blog-main .vp-category:not(.active){
     // display: none;
@@ -88,4 +91,8 @@ $article-cover-margin: 1.25rem;
     &:hover{
         color: #ffffff;
     }
+}
+
+.git-info{
+    display: none;
 }
