@@ -11,22 +11,22 @@ tagline: 101的上山小記 (搬家中)
 projects:
   - icon: location-dot
     name: 各地上山走走記事
-    desc: 项目详细描述
+    desc: 依地點整理的記事清單。
     link: #
 
   - icon: calendar
     name: 上山走走編年紀事
-    desc: 项目详细描述
+    desc: 依年份整理的記事清單。
     link: #
 
   - icon: mountain-sun
     name: 小百岳
-    desc: 项目详细描述
+    desc: 2006 年版小百岳。
     link: #
 
   - icon: mountain
     name: 高山百岳
-    desc: 项目详细描述
+    desc: 3000+M 的台灣山峰。
     link: #
 
 
