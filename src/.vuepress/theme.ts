@@ -95,7 +95,7 @@ export default hopeTheme({
 
     comment: {
       provider: "Waline",
-      serverURL: "https://1013399-waline.vercel.app/", // your server url
+      serverURL: "https://1013399-waline-2r8fdm1ov-im1010ioio.vercel.app/", // your server url
     },
 
     // all features are enabled for demo, only preserve features you need here
