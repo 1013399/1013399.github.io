@@ -8,6 +8,8 @@ const MR_HOPE_AVATAR =
 export default hopeTheme({
   hostname: "https://1013399.github.io/",
 
+  favicon: "/favicon.ico",
+
   author: {
     name: "101上山走走",
     url: "/intro.html",

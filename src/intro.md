@@ -7,6 +7,7 @@ sidebar: false
 cover: /assets/images/cover-intro.jpg
 timeline: false
 article: false
+comment: false
 ---
 
 

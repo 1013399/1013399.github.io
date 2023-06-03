@@ -13,7 +13,6 @@
 }
 
 .vp-blog-mask{
-    background: url("/assets/images/cover.jpg") center center / cover no-repeat !important;
     &::after{
         background: #000;
         opacity: .3;
@@ -86,10 +85,11 @@ $article-cover-margin: 1.25rem;
 }
 
 .vp-article-title{
-    color: rgba( #ffffff, .8);
+    color: var(--black);
+    opacity: .8;
     transition: .3s;
     &:hover{
-        color: #ffffff;
+        opacity: 1;
     }
 }
 
