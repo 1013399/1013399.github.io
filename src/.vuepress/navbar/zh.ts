@@ -77,5 +77,13 @@ export const zhNavbar = navbar([
       },
     ],
   },
+  {
+    text: "其他分類",
+    prefix: "/tag/",
+    children: [
+      { text: "武陵四秀", link: "武陵四秀/" },
+      { text: "谷關七雄", link: "谷關七雄/" },
+    ],
+  },
   { text: "上山走走記事", link: "/category/上山走走記事/" },
 ]);
