@@ -59,6 +59,7 @@ projects:
 #     link: https://你的自定义链接
 
 footer: 
+sitemap.priority: 1
 ---
 
 <!-- 这是一个首頁的案例。
