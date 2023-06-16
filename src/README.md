@@ -30,7 +30,7 @@ projects:
   - icon: mountain
     name: 高山百岳
     desc: 3000+M 的台灣山峰。
-    link: #
+    link: /posts/post-94-2014-11-03.html
 
 
 #   - icon: link
