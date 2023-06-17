@@ -83,6 +83,9 @@ export const zhNavbar = navbar([
     children: [
       { text: "武陵四秀", link: "武陵四秀/" },
       { text: "谷關七雄", link: "谷關七雄/" },
+      { text: "復興三尖", link: "復興三尖/" },
+      { text: "平溪三尖", link: "平溪三尖/" },
+      { text: "內湖三尖", link: "內湖三尖/" },
     ],
   },
   { text: "上山走走記事", link: "/category/上山走走記事/" },
