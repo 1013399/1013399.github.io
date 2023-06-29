@@ -1,13 +1,14 @@
 ---
 lang: zh-Hant-tw
 icon: mountain-sun
-title: 101上山走走記錄
+title: 關於101上山走走記錄
 sidebar: false
 # sticky: true
 cover: /assets/images/cover-intro.jpg
 timeline: false
 article: false
 comment: false
+star: true
 ---
 
 
