@@ -28,7 +28,7 @@ export default defineUserConfig({
       id: 'G-27XJ94VCNL',
     }),
     sitemapPlugin({
-      hostname: 'https://1013399.github.io/'
+      hostname: 'https://1013399.github.io'
     }),
   ],
 
