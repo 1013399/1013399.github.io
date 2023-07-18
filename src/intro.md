@@ -10,7 +10,7 @@ timeline: false
 article: false
 comment: false
 star: true
-sitemap.priority: .9
+sitemap.priority: 0.9
 ---
 
 
