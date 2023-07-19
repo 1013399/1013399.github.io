@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 1440px){
-    .theme-container.no-sidebar .sidebar + .vp-page {
+    .theme-container.no-sidebar.has-toc .vp-page {
         -webkit-padding-end: 0;
         padding-inline-end: 0;
     }
