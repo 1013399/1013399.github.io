@@ -11,22 +11,22 @@ cover: /assets/images/cover.jpg
 heroText: 101上山走走
 heroFullScreen: false
 bgImage: /assets/images/cover.jpg
-tagline: 101的上山小記 (搬家中)
+tagline: 101的上山小記
 projects:
+  - icon: user
+    name: 關於101上山走走
+    desc: 關於本部落格的初衷。
+    link: /intro.md
+
   - icon: location-dot
     name: 各地上山走走記事
     desc: 依地點整理的記事清單。
-    link: #
-
-  - icon: calendar
-    name: 上山走走編年紀事
-    desc: 依年份整理的記事清單。
-    link: #
+    link: /intro.md#各地上山走走記事
 
   - icon: mountain-sun
     name: 小百岳
     desc: 2006 年版小百岳。
-    link: #
+    link: /posts/post-383-2009-01-01.md
 
   - icon: mountain
     name: 高山百岳

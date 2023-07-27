@@ -81,9 +81,12 @@ export const zhNavbar = navbar([
     text: "其他分類",
     prefix: "/tag/",
     children: [
-      { text: "武陵四秀", link: "武陵四秀/" },
+      { text: "砂卡礑三雄", link: "砂卡礑三雄/" },
       { text: "谷關七雄", link: "谷關七雄/" },
+      { text: "武陵四秀", link: "武陵四秀/" },
+      { text: "日月潭四兄妹", link: "日月潭四兄妹/" },
       { text: "復興三尖", link: "復興三尖/" },
+      { text: "水雲三星", link: "水雲三星/" },
       { text: "平溪三尖", link: "平溪三尖/" },
       { text: "內湖三尖", link: "內湖三尖/" },
     ],
