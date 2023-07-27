@@ -141,6 +141,14 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
+    seo: {
+      hostname: 'https://1013399.github.io'
+    },
+
+    sitemap: {
+      hostname: 'https://1013399.github.io'
+    }
+
     // uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",

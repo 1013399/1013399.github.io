@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchPlugin } from '@vuepress/plugin-search'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import { sitemapPlugin } from "vuepress-plugin-sitemap2";
+// import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 
 export default defineUserConfig({
   base: "/",
@@ -27,9 +27,10 @@ export default defineUserConfig({
     googleAnalyticsPlugin({
       id: 'G-27XJ94VCNL',
     }),
-    sitemapPlugin({
-      hostname: 'https://1013399.github.io'
-    }),
+    // sitemapPlugin({
+    //   hostname: 'https://1013399.github.io',
+    //   priority: .5
+    // }),
   ],
 
   // Enable it with pwa
